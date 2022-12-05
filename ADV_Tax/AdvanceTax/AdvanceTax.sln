@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvanceTax", "AdvanceTax.csproj", "{54DF92C2-B9F3-43B3-B403-64B2B3976953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BLL\BLL.csproj", "{7C05F0A4-95F5-4239-A2C3-98CBFB7FDC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{32E52792-A779-4949-91AD-71DE3319306B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{54DF92C2-B9F3-43B3-B403-64B2B3976953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54DF92C2-B9F3-43B3-B403-64B2B3976953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54DF92C2-B9F3-43B3-B403-64B2B3976953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C05F0A4-95F5-4239-A2C3-98CBFB7FDC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C05F0A4-95F5-4239-A2C3-98CBFB7FDC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C05F0A4-95F5-4239-A2C3-98CBFB7FDC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C05F0A4-95F5-4239-A2C3-98CBFB7FDC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E52792-A779-4949-91AD-71DE3319306B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E52792-A779-4949-91AD-71DE3319306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E52792-A779-4949-91AD-71DE3319306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E52792-A779-4949-91AD-71DE3319306B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
