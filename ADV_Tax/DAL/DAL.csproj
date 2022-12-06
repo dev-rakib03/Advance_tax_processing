@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="EF\Models\Income.cs" />
+    <Compile Include="EF\Models\Payment.cs" />
     <Compile Include="EF\Models\Role.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="EF\TaxContext.cs" />
@@ -71,6 +72,10 @@
     <Compile Include="Migrations\202212060347037_UserRoleTableUpdated.cs" />
     <Compile Include="Migrations\202212060347037_UserRoleTableUpdated.designer.cs">
       <DependentUpon>202212060347037_UserRoleTableUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212061539430_PaymentTableCreatedWithFK.cs" />
+    <Compile Include="Migrations\202212061539430_PaymentTableCreatedWithFK.designer.cs">
+      <DependentUpon>202212061539430_PaymentTableCreatedWithFK.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212060347037_UserRoleTableUpdated.resx">
       <DependentUpon>202212060347037_UserRoleTableUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212061539430_PaymentTableCreatedWithFK.resx">
+      <DependentUpon>202212061539430_PaymentTableCreatedWithFK.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -15,3 +15,4 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PkFkAdded.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.IncomeTableCreateWithFKUser.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserRoleTableUpdated.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PaymentTableCreatedWithFK.resources

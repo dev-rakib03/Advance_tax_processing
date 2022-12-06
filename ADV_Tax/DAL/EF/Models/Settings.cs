@@ -8,25 +8,16 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Income
+    public class Settings
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual User User { get; set; }
-        public DateTime DateStart { get; set; }
-        public DateTime DateEnd { get; set; }
-        public string IncomeInfo { get; set; }
-        public int Amount { get; set; }
+        public int Type { get; set; }
+        [Required]
+        public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public virtual List<Payment>Payments { get; set; }
-        public Income()
-        {
-            Payments = new List<Payment>();
-        }
     }
 }
