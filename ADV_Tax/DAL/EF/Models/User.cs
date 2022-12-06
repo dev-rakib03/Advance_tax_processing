@@ -37,6 +37,11 @@ namespace DAL.EF.Models
         public int TinNumber { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public virtual List<Ticket> Tickets{ get; set; }
+        public User()
+        {
+            Tickets = new List<Ticket>();
+        }
 
     }
 }

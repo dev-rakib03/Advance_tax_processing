@@ -8,15 +8,17 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Settings
+    public class Ticket
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        public int Type { get; set; }
-        [Required]
-        public string Content { get; set; }
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
+        public string Subject { get; set; }
+        public string Details { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
