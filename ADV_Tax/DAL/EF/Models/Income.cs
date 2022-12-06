@@ -17,9 +17,13 @@ namespace DAL.EF.Models
         [ForeignKey("User")]
         public int UserId { get; set; }
         public virtual User User { get; set; }
+        [Required]
         public DateTime DateStart { get; set; }
+        [Required]
         public DateTime DateEnd { get; set; }
+        [Required]
         public string IncomeInfo { get; set; }
+        [Required]
         public int Amount { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }

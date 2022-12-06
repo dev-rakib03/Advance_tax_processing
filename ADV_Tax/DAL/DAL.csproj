@@ -96,6 +96,10 @@
     <Compile Include="Migrations\202212061605235_TicketsTableAddedFK.designer.cs">
       <DependentUpon>202212061605235_TicketsTableAddedFK.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212061609103_AllRequiredUpdated.cs" />
+    <Compile Include="Migrations\202212061609103_AllRequiredUpdated.designer.cs">
+      <DependentUpon>202212061609103_AllRequiredUpdated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -134,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212061605235_TicketsTableAddedFK.resx">
       <DependentUpon>202212061605235_TicketsTableAddedFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212061609103_AllRequiredUpdated.resx">
+      <DependentUpon>202212061609103_AllRequiredUpdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
