@@ -1,0 +1,17 @@
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.dll.config
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.xml
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserRoleTableCreated.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PkFkAdded.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.IncomeTableCreateWithFKUser.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserRoleTableUpdated.resources

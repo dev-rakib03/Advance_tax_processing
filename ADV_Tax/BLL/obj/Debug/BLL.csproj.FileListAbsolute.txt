@@ -1,0 +1,12 @@
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\BLL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\BLL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\EntityFramework.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.dll.config
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\EntityFramework.xml
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.pdb

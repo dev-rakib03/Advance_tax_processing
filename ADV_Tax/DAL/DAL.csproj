@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>32e52792-a779-4949-91ad-71de3319306b</ProjectGuid>
+    <ProjectGuid>{32E52792-A779-4949-91AD-71DE3319306B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -12,6 +13,8 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,24 +34,76 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\AdvanceTax\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\AdvanceTax\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EF\Models\Income.cs" />
+    <Compile Include="EF\Models\Role.cs" />
+    <Compile Include="EF\Models\User.cs" />
+    <Compile Include="EF\TaxContext.cs" />
+    <Compile Include="Migrations\202212060323293_UserRoleTableCreated.cs" />
+    <Compile Include="Migrations\202212060323293_UserRoleTableCreated.designer.cs">
+      <DependentUpon>202212060323293_UserRoleTableCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212060330584_PkFkAdded.cs" />
+    <Compile Include="Migrations\202212060330584_PkFkAdded.designer.cs">
+      <DependentUpon>202212060330584_PkFkAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212060344123_IncomeTableCreateWithFKUser.cs" />
+    <Compile Include="Migrations\202212060344123_IncomeTableCreateWithFKUser.designer.cs">
+      <DependentUpon>202212060344123_IncomeTableCreateWithFKUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212060347037_UserRoleTableUpdated.cs" />
+    <Compile Include="Migrations\202212060347037_UserRoleTableUpdated.designer.cs">
+      <DependentUpon>202212060347037_UserRoleTableUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202212060323293_UserRoleTableCreated.resx">
+      <DependentUpon>202212060323293_UserRoleTableCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212060330584_PkFkAdded.resx">
+      <DependentUpon>202212060330584_PkFkAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212060344123_IncomeTableCreateWithFKUser.resx">
+      <DependentUpon>202212060344123_IncomeTableCreateWithFKUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212060347037_UserRoleTableUpdated.resx">
+      <DependentUpon>202212060347037_UserRoleTableUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\AdvanceTax\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
