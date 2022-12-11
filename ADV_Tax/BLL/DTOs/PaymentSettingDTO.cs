@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class PaymentSettingsDTO
+    public class PaymentSettingDTO
     {
         public int Id { get; set; }
         public string MethodName { get; set; }

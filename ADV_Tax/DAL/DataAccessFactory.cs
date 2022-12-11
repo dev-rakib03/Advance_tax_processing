@@ -23,7 +23,7 @@ namespace DAL
         {
             return new IncomeRepo();
         }
-        public static IRepo<PaymentSetting, int, PaymentSetting> PaymentSettingsDataAccess()
+        public static IRepo<PaymentSetting, int, PaymentSetting> PaymentSettingDataAccess()
         {
             return new Payment_settingsRepo();
         }
