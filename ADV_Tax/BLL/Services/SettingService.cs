@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    public class SettingsService
+    public class SettingService
     {
         public static List<SettingDTO> GetSetting()
         {

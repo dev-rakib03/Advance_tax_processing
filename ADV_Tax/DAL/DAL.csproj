@@ -105,8 +105,12 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\IncomeRepo.cs" />
+    <Compile Include="Repos\PaymentRepo.cs" />
+    <Compile Include="Repos\Payment_settingsRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\RoleRepo.cs" />
+    <Compile Include="Repos\SettingsRepo.cs" />
+    <Compile Include="Repos\TicketsRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    public class PaymentSettingsService
+    public class PaymentSettingService
     {
         public static List<PaymentSettingDTO> GetPaymentSetting()
         {
