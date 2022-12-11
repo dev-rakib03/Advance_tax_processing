@@ -10,3 +10,5 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.dll
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.xml

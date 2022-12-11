@@ -71,3 +71,6 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\obj\Debug\AdvanceTax.csproj.CopyComplete
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\obj\Debug\AdvanceTax.dll
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\obj\Debug\AdvanceTax.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.pdb
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.dll.config

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\Models\Income.cs" />
     <Compile Include="EF\Models\Payment.cs" />
     <Compile Include="EF\Models\PaymentSetting.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="EF\Models\Ticket.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="EF\TaxContext.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202212060323293_UserRoleTableCreated.cs" />
     <Compile Include="Migrations\202212060323293_UserRoleTableCreated.designer.cs">
       <DependentUpon>202212060323293_UserRoleTableCreated.cs</DependentUpon>
@@ -102,15 +104,16 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\IncomeRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\RoleRepo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repos\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202212060323293_UserRoleTableCreated.resx">
       <DependentUpon>202212060323293_UserRoleTableCreated.cs</DependentUpon>
