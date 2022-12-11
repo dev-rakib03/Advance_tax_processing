@@ -49,7 +49,7 @@ namespace BLL.Services
             }
             return null;
         }
-        public static UserDTO Update(UserDTO user)
+        public static UserDTO UpdateUser(UserDTO user)
         {
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<UserDTO, User>();
@@ -65,7 +65,7 @@ namespace BLL.Services
             return null;
         }
 
-        public static bool Delete(int Id)
+        public static bool DeleteUser(int Id)
         {
             return DataAccessFactory.UserDataAccess().Delete(Id);
         }
