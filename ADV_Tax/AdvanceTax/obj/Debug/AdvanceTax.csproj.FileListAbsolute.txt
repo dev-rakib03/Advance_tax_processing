@@ -74,3 +74,5 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.dll
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.pdb
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\DAL.dll.config
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\AutoMapper.dll
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\AdvanceTax\bin\AutoMapper.xml
