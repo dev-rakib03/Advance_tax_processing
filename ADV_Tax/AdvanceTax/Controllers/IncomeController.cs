@@ -13,7 +13,7 @@ namespace AdvanceTax.Controllers
     {
         [Route("api/income")]
         [HttpGet]
-        public HttpResponseMessage Get()
+        public HttpResponseMessage Income()
         {
             try
             {

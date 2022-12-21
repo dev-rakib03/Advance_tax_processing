@@ -12,7 +12,8 @@ namespace AdvanceTax.Controllers
     public class RoleController : ApiController
     {
         [Route("api/roles")]
-        public HttpResponseMessage Get()
+        [HttpGet]
+        public HttpResponseMessage Roles()
         {
             try
             {

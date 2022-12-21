@@ -93,7 +93,11 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\IncomeController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
+    <Compile Include="Controllers\PaymentSettingController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\SettingController.cs" />
+    <Compile Include="Controllers\TicketController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

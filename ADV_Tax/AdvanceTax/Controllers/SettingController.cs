@@ -9,75 +9,29 @@ using System.Web.Http;
 
 namespace AdvanceTax.Controllers
 {
-    public class UserController : ApiController
+    public class SettingController : ApiController
     {
-        [Route("api/users")]
+        [Route("api/setting")]
         [HttpGet]
-        public HttpResponseMessage Users()
+        public HttpResponseMessage Setting()
         {
             try
             {
-                var data = UserService.GetUser();
+                var data = SettingService.GetSetting();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
             }
         }
-        [Route("api/users/{id}")]
+        [Route("api/setting/{id}")]
         [HttpGet]
-        public HttpResponseMessage Users(int id)
+        public HttpResponseMessage Setting(int id)
         {
             try
             {
-                var data = UserService.GetUser(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
-            }
-        }
-        [Route("api/users/create")]
-        [HttpPost]
-        public HttpResponseMessage Add(UserDTO user)
-        {
-            try
-            {
-                var data = UserService.AddUser(user);
-                if (data != null)
-                {
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
-                }
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
-            }
-            return Request.CreateResponse(HttpStatusCode.BadRequest, new { });
-        }
-        [Route("api/users/update")]
-        [HttpPost]
-        public HttpResponseMessage Update(UserDTO user)
-        {
-            try
-            {
-                var data = UserService.UpdateUser(user);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
-            }
-        }
-        [Route("api/users/delete/{id}")]
-        [HttpGet]
-        public HttpResponseMessage Delete(int id)
-        {
-            try
-            {
-                var data = UserService.DeleteUser(id);
+                var data = SettingService.GetSetting(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch(Exception ex)
@@ -85,5 +39,52 @@ namespace AdvanceTax.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
+        [Route("api/setting/create")]
+        [HttpPost]
+        public HttpResponseMessage Add(SettingDTO setting)
+        {
+            try
+            {
+                var data = SettingService.AddSetting(setting);
+                if(data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+            }
+            catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+            return Request.CreateResponse(HttpStatusCode.BadRequest, new { });
+        }
+        [Route("api/setting/update")]
+        [HttpPost]
+        public HttpResponseMessage Update(SettingDTO setting)
+        {
+            try
+            {
+                var data = SettingService.UpdateSetting(setting);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+        [Route("api/setting/delete/{id}")]
+        [HttpGet]
+        public HttpResponseMessage Delete(int id)
+        {
+            try
+            {
+                var data = SettingService.DeleteSetting(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+        
     }
 }

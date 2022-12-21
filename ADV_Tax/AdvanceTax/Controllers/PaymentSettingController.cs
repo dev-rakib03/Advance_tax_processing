@@ -9,75 +9,75 @@ using System.Web.Http;
 
 namespace AdvanceTax.Controllers
 {
-    public class UserController : ApiController
+    public class PaymentSettingController : ApiController
     {
-        [Route("api/users")]
+        [Route("api/paymentSetting")]
         [HttpGet]
-        public HttpResponseMessage Users()
+        public HttpResponseMessage PaymentSetting()
         {
             try
             {
-                var data = UserService.GetUser();
+                var data = PaymentSettingService.GetPaymentSetting();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
-        [Route("api/users/{id}")]
+        [Route("api/paymentSetting/{id}")]
         [HttpGet]
-        public HttpResponseMessage Users(int id)
+        public HttpResponseMessage PaymentSetting(int id)
         {
             try
             {
-                var data = UserService.GetUser(id);
+                var data = PaymentSettingService.GetPaymentSetting(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
-        [Route("api/users/create")]
+        [Route("api/paymentSetting/create")]
         [HttpPost]
-        public HttpResponseMessage Add(UserDTO user)
+        public HttpResponseMessage Add(PaymentSettingDTO payment)
         {
             try
             {
-                var data = UserService.AddUser(user);
+                var data = PaymentSettingService.AddPaymentSetting(payment);
                 if (data != null)
                 {
                     return Request.CreateResponse(HttpStatusCode.OK, data);
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest, new { });
         }
-        [Route("api/users/update")]
+        [Route("api/paymentSetting/update")]
         [HttpPost]
-        public HttpResponseMessage Update(UserDTO user)
+        public HttpResponseMessage Update(PaymentSettingDTO payment)
         {
             try
             {
-                var data = UserService.UpdateUser(user);
+                var data = PaymentSettingService.UpdatePaymentSetting(payment);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
-        [Route("api/users/delete/{id}")]
+        [Route("api/paymentSetting/delete/{id}")]
         [HttpGet]
         public HttpResponseMessage Delete(int id)
         {
             try
             {
-                var data = UserService.DeleteUser(id);
+                var data = PaymentSettingService.DeletePaymentSetting(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch(Exception ex)
