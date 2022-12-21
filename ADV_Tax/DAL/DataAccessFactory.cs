@@ -15,6 +15,10 @@ namespace DAL
         {
             return new UserRepo();
         }
+        public static IAuth AuthDataAccess()
+        {
+            return new UserRepo();
+        }
         public static IRepo<Role, int, Role> RoleDataAccess()
         {
             return new RoleRepo();
@@ -39,5 +43,10 @@ namespace DAL
         {
             return new TicketsRepo();
         }
+        public static IRepo<Token, string, Token> TokenDataAccess()
+        {
+            return new TokenRepo();
+        }
+        
     }
 }

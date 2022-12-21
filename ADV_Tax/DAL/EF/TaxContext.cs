@@ -17,5 +17,6 @@ namespace DAL.EF
         public DbSet<Setting> Settings { get; set; }
         public DbSet<PaymentSetting> PaymentSettings { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Token> Tokens { get; set; }
     }
 }

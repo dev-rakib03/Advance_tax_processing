@@ -21,3 +21,5 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TicketsTableAdded.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TicketsTableAddedFK.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.AllRequiredUpdated.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserTablePassword.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TokenTableAdded.resources

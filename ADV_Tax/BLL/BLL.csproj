@@ -35,6 +35,7 @@
       <HintPath>..\AdvanceTax\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,13 +47,16 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\IncomeDTO.cs" />
+    <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\PaymentDTO.cs" />
     <Compile Include="DTOs\PaymentSettingDTO.cs" />
     <Compile Include="DTOs\RoleDTO.cs" />
     <Compile Include="DTOs\SettingDTO.cs" />
     <Compile Include="DTOs\TicketDTO.cs" />
+    <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\IncomeService.cs" />
     <Compile Include="Services\PaymentService.cs" />
     <Compile Include="Services\PaymentSettingService.cs" />
