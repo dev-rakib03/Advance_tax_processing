@@ -12,6 +12,7 @@ using System.Web.Http.Cors;
 namespace AdvanceTax.Controllers
 {
     [EnableCors("*","*","*")]
+    [Logged]
     public class UserController : ApiController
     {
         [Route("api/users")]
