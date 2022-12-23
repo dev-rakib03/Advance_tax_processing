@@ -12,3 +12,17 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.pdb
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.dll
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.xml
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\BLL.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\BLL.pdb
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\EntityFramework.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.pdb
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\DAL.dll.config
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\AutoMapper.xml
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\bin\Debug\EntityFramework.xml
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\BLL\obj\Debug\BLL.pdb
