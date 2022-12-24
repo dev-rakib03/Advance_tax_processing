@@ -23,3 +23,30 @@ D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.AllRequiredUpdated.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserTablePassword.resources
 D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TokenTableAdded.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.dll.config
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\DAL.pdb
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.xml
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserRoleTableCreated.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PkFkAdded.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.IncomeTableCreateWithFKUser.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserRoleTableUpdated.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PaymentTableCreatedWithFK.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PaymentTableCreated.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.PaymentTableCreated1.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TicketsTableAdded.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TicketsTableAddedFK.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.AllRequiredUpdated.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.UserTablePassword.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.TokenTableAdded.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.dll
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.pdb
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.role_correction.resources
+E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.user_correction.resources

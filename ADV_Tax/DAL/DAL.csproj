@@ -112,6 +112,14 @@
     <Compile Include="Migrations\202212211308051_TokenTableAdded.designer.cs">
       <DependentUpon>202212211308051_TokenTableAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212241511018_role_correction.cs" />
+    <Compile Include="Migrations\202212241511018_role_correction.designer.cs">
+      <DependentUpon>202212241511018_role_correction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212241533403_user_correction.cs" />
+    <Compile Include="Migrations\202212241533403_user_correction.designer.cs">
+      <DependentUpon>202212241533403_user_correction.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\IncomeRepo.cs" />
@@ -165,6 +173,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212211308051_TokenTableAdded.resx">
       <DependentUpon>202212211308051_TokenTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212241511018_role_correction.resx">
+      <DependentUpon>202212241511018_role_correction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212241533403_user_correction.resx">
+      <DependentUpon>202212241533403_user_correction.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

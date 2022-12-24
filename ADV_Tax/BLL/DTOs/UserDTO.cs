@@ -19,8 +19,8 @@ namespace BLL.DTOs
         public string Gender { get; set; }
         public long NidNumber { get; set; }
         public string Address { get; set; }
-        public int AccountType { get; set; }
-        public int TinNumber { get; set; }
+        public string AccountType { get; set; }
+        public long TinNumber { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 

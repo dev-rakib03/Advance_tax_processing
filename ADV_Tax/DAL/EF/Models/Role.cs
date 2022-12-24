@@ -15,7 +15,7 @@ namespace DAL.EF.Models
         [StringLength(50)]
         public string Name { get; set; }
         [Required]
-        public int Permission { get; set; }
+        public string Permission { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public virtual List<User> Users { get; set; }

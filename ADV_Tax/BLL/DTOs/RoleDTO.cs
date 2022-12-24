@@ -10,7 +10,7 @@ namespace BLL.DTOs
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Permission { get; set; }
+        public string Permission { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }

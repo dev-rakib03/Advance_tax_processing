@@ -34,9 +34,9 @@ namespace DAL.EF.Models
         [Required]
         public string Address { get; set; }
         [Required]
-        public int AccountType { get; set; }
+        public string AccountType { get; set; }
         [Required]
-        public int TinNumber { get; set; }
+        public long TinNumber { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public virtual List<Ticket> Tickets{ get; set; }
