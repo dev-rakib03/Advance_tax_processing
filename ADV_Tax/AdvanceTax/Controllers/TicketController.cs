@@ -6,10 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Management;
 
 namespace AdvanceTax.Controllers
 {
+    [EnableCors("*", "*", "*")]
+    //[Logged]
     public class TicketController : ApiController
     {
         [Route("api/ticket")]

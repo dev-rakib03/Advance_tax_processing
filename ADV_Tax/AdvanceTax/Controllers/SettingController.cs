@@ -6,9 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace AdvanceTax.Controllers
 {
+    [EnableCors("*", "*", "*")]
+    //[Logged]
     public class SettingController : ApiController
     {
         [Route("api/setting")]
