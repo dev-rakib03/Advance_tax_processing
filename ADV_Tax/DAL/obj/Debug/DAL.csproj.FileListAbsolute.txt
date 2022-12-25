@@ -50,3 +50,5 @@ E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.dll
 E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.pdb
 E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.role_correction.resources
 E:\.Net project\adv_tax\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.user_correction.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.role_correction.resources
+D:\11 Semester\ADVANCED PROGRAMMING WITH .NET\Project\Advance_tax_processing\ADV_Tax\DAL\obj\Debug\DAL.Migrations.user_correction.resources
