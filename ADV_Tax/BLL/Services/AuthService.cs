@@ -30,6 +30,18 @@ namespace BLL.Services
                     });
                     var mapper = new Mapper(cfg);
                     var data = mapper.Map<TokenDTO>(rttk);
+
+                    //role
+                    var role = DataAccessFactory.RoleDataAccess().Get(user.RoleId);
+                    var config = new MapperConfiguration(roles =>
+                    {
+                        roles.CreateMap<Role, RoleDTO>();
+                    });
+                    var mapper_role = new Mapper(config);
+                    var rt = mapper.Map<RoleDTO>(role);
+
+                    //marge data and rt.Permission and rt.Name
+
                     return data;
                 }
             }
