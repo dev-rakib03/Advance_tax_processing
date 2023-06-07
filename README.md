@@ -79,26 +79,6 @@ The main objectives of the project are to:
 **Server:** .NET Framework, C#
 
 
-## UI Design
-
-With Multipurpose Dashboard
-
-![Home](https://i.ibb.co/dBjkSQb/321945701-1415464435655961-1265786600470113082-n.png)
-![Log in](https://i.ibb.co/4YZptcs/321688246-2367752110066163-3408128312963229565-n.png)
-![Registration](https://i.ibb.co/WBX4QcR/320424436-1799289473785237-976506141511105203-n.png)
-![Dashboard](https://i.ibb.co/KrKfdWd/321945674-691865139196710-3491435938880227552-n.png)
-![Add User](https://i.ibb.co/vVKG6f0/321768784-1319813098784574-8747975460049243409-n.png)
-![App Screenshot](https://i.ibb.co/pR73kkh/321688889-834600294499388-4465090463444306498-n.png)
-![TIN cerficate](https://i.ibb.co/xKk7VLc/321606265-528201525931991-3349659858858731765-n.png)
-![Income](https://i.ibb.co/h7VHGJX/321417984-5439100639551493-6822348974368908171-n.png)
-![Add Income](https://i.ibb.co/xGXGh6H/321928162-477679644481807-6250375110295583370-n.png)
-![Total Income](https://i.ibb.co/R49whMs/321964558-1774446412956551-3064727765214404263-n.png)
-![Payment](https://i.ibb.co/hLJKnF3/321238741-886537369459611-516314668938123272-n.png)
-
-
-
-
-
 ## Authors
 
 - [@S M Tusher](https://www.github.com/smtusher007)
